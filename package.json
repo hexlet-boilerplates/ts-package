@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-package",
+  "name": "ts-package",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -29,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+    "url": "git+https://github.com/hexlet-boilerplates/ts-package.git"
   },
   "author": "Kirill Mokevnin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+    "url": "https://github.com/hexlet-boilerplates/ts-package/issues"
   },
-  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "homepage": "https://github.com/hexlet-boilerplates/ts-package#readme",
   "dependencies": {},
   "devDependencies": {
     "debug": "*",
