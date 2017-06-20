@@ -16,4 +16,4 @@ publish:
 typings:
 	yarn run typings -- install node --source env --global --save
 
-.PHONY: test
+.PHONY: test typings

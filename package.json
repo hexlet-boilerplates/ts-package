@@ -21,7 +21,7 @@
       "js"
     ],
     "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+      ".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js"
     },
     "testMatch": [
       "**/__tests__/*.(ts|tsx|js)"
@@ -37,13 +37,13 @@
     "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
   },
   "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "typings": "*",
     "debug": "*",
     "jest": "^20",
     "prettier": "^1.4.4",
-    "typescript": "*"
+    "ts-jest": "*",
+    "typescript": "*",
+    "typings": "*"
   }
 }
