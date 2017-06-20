@@ -1,0 +1,49 @@
+{
+  "name": "nodejs-package",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "hexlet": "dist/bin/hexlet.js"
+  },
+  "scripts": {
+    "test": "jest --colors",
+    "gulp": "gulp",
+    "eslint": "eslint",
+    "build": "tsc -p .",
+    "postinstall": "typings install",
+    "prepublish": "yarn run build"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx|js)"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+  },
+  "author": "Kirill Mokevnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+  },
+  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typings": "*",
+    "debug": "*",
+    "jest": "^20",
+    "prettier": "^1.4.4",
+    "typescript": "*"
+  }
+}
