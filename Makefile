@@ -1,19 +1,22 @@
-install:
-	yarn
+install: install-deps
+
+install-deps:
+	npm ci
 
 run:
-	yarn run babel-node -- 'src/bin/hexlet.js' 10
+	npx ts-node 'src/bin/hexlet.ts' 10
 
 build:
-	yarn run build
+	npm run build
 
 test:
-	yarn test
+	npm test -s
+
+test-coverage:
+	npm test -s -- --coverage --coverageProvider=v8
+
+lint:
+	npx eslint src/**/*
 
 publish:
-	yarn publish
-
-typings:
-	yarn run typings -- install node --source env --global --save
-
-.PHONY: test typings
+	npm publish

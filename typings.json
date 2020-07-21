@@ -1,8 +1,0 @@
-{
-  "name": "nodejs-package",
-  "dependencies": {},
-  "globalDependencies": {
-    "jest": "registry:env/jest#0.9.2+20160321204158",
-    "node": "registry:env/node#6.0.0+20170213133316"
-  }
-}
