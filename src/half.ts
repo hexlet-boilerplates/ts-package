@@ -1,3 +1,1 @@
-export default function(num: number) {
-  return num / 2;
-}
+export default (num: number) => num / 2;

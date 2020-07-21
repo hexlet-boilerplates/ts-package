@@ -1,7 +1,4 @@
-/node_modules/
-*.log
+node_modules
 dist
-flow-typed
-.tern-port
-typing
-typings
+.idea
+coverage
