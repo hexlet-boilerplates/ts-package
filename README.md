@@ -1,3 +1,5 @@
+See: https://github.com/hexlet-boilerplates/typescript-package
+
 # ts-package
 
 [![Typescript CI](../../workflows/Typescript/badge.svg)](../../actions)
